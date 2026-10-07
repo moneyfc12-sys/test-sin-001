@@ -10,5 +10,5 @@ export const shops =[
         title: "apple store",
         location :{lat:105,long:109},
         openStatus: true
-    }
+    },
 ];

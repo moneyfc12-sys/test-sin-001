@@ -37,7 +37,7 @@ export default async function ShopDetail({params}) {
 
     let shop ={};
       try {
-        const resData = await  fetch(`http://localhost:2006/shops/${id}`);
+        const resData = await  fetch(`http://localhost:2006/api/shops/${id}`);
 
         if(!resData.ok){
           throw new Error(`Network response was not ok`);
